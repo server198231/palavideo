@@ -17,11 +17,11 @@ def git_commit_and_remove_history():
         # 提交新的初始提交
         subprocess.run(['git', 'commit', '-m', 'Initial commit after history removal'], check=True)
         # 删除原来的主分支
-        subprocess.run(['git', 'branch', '-D', 'master'], check=True)
+        subprocess.run(['git', 'branch', '-D', 'main'], check=True)
         # 将新分支重命名为原来的主分支
-        subprocess.run(['git', 'branch', '-m', 'master'], check=True)
+        subprocess.run(['git', 'branch', '-m', 'main'], check=True)
         # 强制推送到远程仓库
-        subprocess.run(['git', 'push', '-f', 'origin', 'master'], check=True)
+        subprocess.run(['git', 'push', '-f', 'origin', 'main'], check=True)
 
         print("代码已成功提交，历史提交记录已删除。")
     except subprocess.CalledProcessError as e:
