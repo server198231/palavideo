@@ -11,7 +11,7 @@ def git_commit_and_remove_history():
 
         # 删除历史提交记录
         # 创建一个新的空分支
-        subprocess.run(['git', 'checkout', '--orphan', 'new_branch'], check=True)
+        subprocess.run(['git', 'checkout', 'new_branch'], check=True)
         # 添加所有文件
         subprocess.run(['git', 'add', '-A'], check=True)
         # 提交新的初始提交
