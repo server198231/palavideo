@@ -1,0 +1,47 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "clock",
+      "rootUri": "file:///Users/f/.pub-cache/hosted/pub.flutter-io.cn/clock-1.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
+      "name": "intl",
+      "rootUri": "file:///Users/f/.pub-cache/hosted/pub.flutter-io.cn/intl-0.20.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "meta",
+      "rootUri": "file:///Users/f/.pub-cache/hosted/pub.flutter-io.cn/meta-1.16.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "path",
+      "rootUri": "file:///Users/f/.pub-cache/hosted/pub.flutter-io.cn/path-1.9.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
+      "name": "xxtea",
+      "rootUri": "file:///Users/f/.pub-cache/hosted/pub.flutter-io.cn/xxtea-2.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "my_app",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "3.7"
+    }
+  ],
+  "generated": "2025-04-11T16:02:56.492739Z",
+  "generator": "pub",
+  "generatorVersion": "3.7.0",
+  "flutterRoot": "file:///Users/f/fvm/versions/3.29.0",
+  "flutterVersion": "3.29.0",
+  "pubCache": "file:///Users/f/.pub-cache"
+}
