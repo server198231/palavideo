@@ -1,0 +1,5 @@
+/.idea/
+/git*
+/main.dart
+/pubspec*
+/.dart_tool/*
